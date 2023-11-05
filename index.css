@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Inter:wght@700&family=Kanit&family=Montserrat:wght@300;600&family=Ubuntu:wght@300&family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body{
+    background-image: linear-gradient( to right, #66bdff, #ff5cf7 , purple);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-container{
+    background-color: #E0FFFF;
+    width: 500px;
+    height: 300px;
+    border-radius: 1.25rem;
+    padding: 20px 15px 20px 30px;
+    
+}
+
+.login-header .description{
+    padding-bottom: 1rem;
+    padding-top: 0.50;
+    font-size: 0.75rem;
+}
+
+.login-form .login-input .login>input{
+    border: 3px solid #4169E1 ;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+
+.login-form .login-input .login>input:hover{
+    border: 3px solid #B0E0E6;
+}
+
+.login-link-password > a{
+    text-decoration: none;
+}
+
+.login-link-password > a:hover{
+    color: #4169E1;
+}
+
+.login-button >button{
+    color: white;
+    border: 2px solid blue;
+    background-color: blue;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 0.50rem;
+}
+
+.login-button > button:hover{
+    border: 2px solid #66bdff;
+    background-color: #66bdff;
+    color: white;
+}
+
+#degistir{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    top:32px;
+    width:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-right-radius:.25rem;
+    border-bottom-right-radius:.25rem}
+
+
+
+
+
+
